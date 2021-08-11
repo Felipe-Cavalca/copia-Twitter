@@ -41,8 +41,6 @@ if (isset($links[$url])){
     <link href="<?php echo $tema ?>" rel="stylesheet"></link>
     <!--css da pagina-->
     <link href="<?php echo $cssPagina; ?>" rel="stylesheet"></link>
-    <!--js da pagina-->
-    <script src="<?php echo $jsPagina; ?>"></script>
     <!--inclue os outros css-->
     <?php 
         if(!isset($css)){
@@ -51,6 +49,14 @@ if (isset($links[$url])){
             }
         }
     ?>
+    <!--seta o titulo da pagina-->
+    <title><?php echo $titulo; ?></title>
+</head>
+<body>
+    <?php include $incluir; ?>
+
+    <!--js da pagina-->
+    <script src="<?php echo $jsPagina; ?>"></script>
     <!--inclue os outros js-->
     <?php
         if(!isset($js)){
@@ -59,10 +65,5 @@ if (isset($links[$url])){
             }
         }
     ?>
-    <!--seta o titulo da pagina-->
-    <title><?php echo $titulo; ?></title>
-</head>
-<body>
-    <?php include $incluir; ?>
 </body>
 </html>
