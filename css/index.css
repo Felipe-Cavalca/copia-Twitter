@@ -1,0 +1,31 @@
+.logo{
+    float: left;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-bottom: 0%;
+}
+.logopequeno{
+    padding-top: 40px;
+    padding-left: 35px;
+}
+.escritagrande{
+    margin-left: 100px;
+    padding-left: 450px;
+    padding-top: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.escritamedia{
+    margin-left: 100px;
+    padding-left: 450px;
+    padding-top: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2{
+    font-size: 45px;
+}
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 90px;
+    text-align: center;
+    font-weight:bold;
+}
