@@ -1,5 +1,5 @@
 <?php
-$url = (isset($_GET['url'])) ? $_GET['url']:'home.php';
+$url = (isset($_GET['url'])) ? $_GET['url']:'index';
 include 'links.php';
 
 if (isset($links[$url])){
