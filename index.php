@@ -20,7 +20,7 @@ if (isset($links[$url])){
     //outros js
     $js = $links['js'];
     //pagina a incluir
-    $incluir = "pg/".$nome.".htm.php";
+    $incluir = "html/".$nome.".htm.php";
 }else{
     $titulo = $erros['404'][1];
     $incluir = $erros['404'][0];

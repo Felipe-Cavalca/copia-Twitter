@@ -1,1 +1,10 @@
-body {background-color: black;}
+body, input{
+    background-color: black;
+    color: white;
+}
+a {
+    text-decoration: none;
+}
+.azul {
+    color: blue;
+}

@@ -1,1 +1,13 @@
-p {color:aqua};
+input {
+    width: 100%;
+    font-size: large;
+}
+button {
+    width: 100%;
+}
+#links{
+    margin-left: 8%;
+}
+#btn-enviar{
+    border-radius: 30%;
+}
