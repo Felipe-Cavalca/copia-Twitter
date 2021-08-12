@@ -9,6 +9,6 @@ $links = [
 ];
 
 $erros = [
-    "404" => ['erros/404.htm.php', 'pagina não encontrada']
+    "404" => ["tema" => 'e',"css" => [], "js" => []],
 ];
 ?>

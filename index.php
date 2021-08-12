@@ -22,8 +22,8 @@ if (isset($links[$url])){
     //pagina a incluir
     $incluir = "html/".$nome.".htm.php";
 }else{
-    $titulo = $erros['404'][1];
-    $incluir = $erros['404'][0];
+    include "error/404.htm.php";
+    die;
 }
 ?>
 
