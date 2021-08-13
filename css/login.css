@@ -2,12 +2,16 @@ input {
     width: 100%;
     font-size: large;
 }
-button {
-    width: 100%;
+button{
+    text-align: center;
+    width: 60%;
+    height: 50px;
+    border-radius: 150px;
+    font-size: x-large;
+    background-color: dodgerblue;
+    color:white;
 }
 #links{
     margin-left: 8%;
 }
-#btn-enviar{
-    border-radius: 30%;
-}
+

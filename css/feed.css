@@ -1,0 +1,25 @@
+#btn-azul{
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    border-radius: 150px;
+    font-size: x-large;
+    background-color: dodgerblue;
+    color:white;
+}
+.nav-link{
+    color: black;
+}
+#btn-form-tweet{
+    text-align: center;
+    width: 100%;
+    height: 30px;
+    border-radius: 150px;
+    font-size: small;
+    background-color: dodgerblue;
+    color:white;
+}
+#pesquisa{
+    width: 100%;
+    border-radius:30px;
+}

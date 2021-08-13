@@ -1,4 +1,4 @@
-<main class="logo col-5 ">
+<main class="logo col-lg-5 col-sm-12">
         <section>
             <div>
                 <div class="logo">
@@ -17,20 +17,49 @@
             </div>
        </section>
    </main>
+   <div class="">
+
+   </div>
    <main class="escritagrande">
         <section class="row">
-             <div class="col-12 text-white" >
-                <H1>Acontecendo agora</H1>
+             <div class="col-xl-12 col-lg-10 text-white" >
+                <H1><strong>Acontecendo agora</strong></H1>
              </div>
         </section>
     </main>    
     <main class="escritamedia">
         <section class="row">
              <div class="col-12 text-white" >
-                <h2><strong>  Inscreva-se no Twitter hoje mesmo.</strong> </h2>
+                    <h2><strong>Entre no Twitter hoje mesmo.</strong> </h2>
              </div>
         </section>
-    </main>   
+    </main>  
+    <main class="botao">
+        <section class="row">
+             <div class="col-6 text-black" >
+                <button><i class="material-icons">sports_soccer</i> Login com o Google</button>
+             </div>
+        </section>
+    </main> 
+    <main class="botao2">
+        <section class="row">
+             <div class="col-6 text-black" >
+                <button><i class="material-icons"><span class="material-icons">
+                    apple
+                    </span></i>  Login com Apple</button>
+             </div>
+        </section>
+    </main>
+    <main class="botao3">
+        <section class="row">
+             <div class="col-6 text-black" >
+                <a href="/login">
+                    <button>Login com numero de celular</button>
+                </a>
+             </div>
+        </section>
+    </main>
+    
     
    <!-- <main class="container">
         <section class="row">
